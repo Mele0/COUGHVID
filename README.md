@@ -50,6 +50,11 @@ Both models were validated using 10-fold cross-validation on an 80:20 train-test
 
 ## Results
 
+To assess model robustness in a clinically relevant setting, we evaluated performance on two subsets:
+
+1. The **full dataset**, which includes both healthy and unhealthy individuals, provides a broad test of general classification ability.
+2. The **unhealthy subset**, which includes only individuals with some form of illness (but not necessarily URTI), isolates the model’s ability to distinguish URTI from other pathological coughs—arguably a more challenging and realistic diagnostic task.
+
 | Model                    | AUC  | Sensitivity | Specificity | Precision | Accuracy | F1 Score |
 |--------------------------|------|-------------|-------------|-----------|----------|----------|
 | CNN (Full Dataset)       | 0.93 | 0.87        | 0.86        | 0.83      | 0.87     | 0.85     |
