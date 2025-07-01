@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project investigates the use of deep learning models—specifically Convolutional Neural Networks (CNNs) and Long Short-Term Memory networks (LSTMs)—to detect Upper Respiratory Tract Infections (URTIs) using cough audio recordings. The work draws on the publicly available COUGHVID dataset and incorporates methodologies and architectural insights from the paper _“Attention-based Hybrid CNN-LSTM and Spectral Data Augmentation for COVID-19 Diagnosis from Cough Sound”_ (Hamdi et al., 2022) [DOI: 10.1007/s10844-022-00707-7].
+This project investigates the use of deep learning models—specifically Convolutional Neural Networks (CNNs) and Long Short-Term Memory networks (LSTMs)—to detect Upper Respiratory Tract Infections (URTIs) using cough audio recordings. The work draws on the publicly available COUGHVID dataset and incorporates methodologies and architectural insights from the paper _“Attention-based Hybrid CNN-LSTM and Spectral Data Augmentation for COVID-19 Diagnosis from Cough Sound”_ (Hamdi et al., 2022) [DOI: 10.1007/s10844-022-00707-7](https://link.springer.com/article/10.1007/s10844-022-00707-7).
 
 Our approach focused on adapting and extending these techniques for URTI detection, which, to date, has received relatively limited attention in machine learning literature.
 
