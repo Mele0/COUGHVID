@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project investigates the use of deep learning models—specifically Convolutional Neural Networks (CNNs) and Long Short-Term Memory networks (LSTMs)—to detect Upper Respiratory Tract Infections (URTIs) using cough audio recordings. The work draws on the publicly available COUGHVID dataset and incorporates methodologies and architectural insights from the paper _“Attention-based Hybrid CNN-LSTM and Spectral Data Augmentation for COVID-19 Diagnosis from Cough Sound”_ (Hamdi et al., 2022) [DOI: 10.1007/s10844-022-00707-7](https://link.springer.com/article/10.1007/s10844-022-00707-7).
+This project investigates the use of deep learning models—specifically Convolutional Neural Networks (CNNs) and Long Short-Term Memory networks (LSTMs)—to detect Upper Respiratory Tract Infections (URTIs) using cough audio recordings. The work draws on the publicly available COUGHVID dataset and incorporates methodologies and architectural insights from the paper _“Attention-based Hybrid CNN-LSTM and Spectral Data Augmentation for COVID-19 Diagnosis from Cough Sound”_ (Hamdi et al., 2022) [Available from](https://link.springer.com/article/10.1007/s10844-022-00707-7).
 
 Our approach focused on adapting and extending these techniques for URTI detection, which, to date, has received relatively limited attention in machine learning literature.
 
@@ -61,7 +61,7 @@ These results indicate that the CNN model performs with clinical-grade accuracy 
 
 ## References
 
-Hamdi, S., Oussalah, M., Moussaoui, A., & Saidi, M. (2022). _Attention-based hybrid CNN-LSTM and spectral data augmentation for COVID-19 diagnosis from cough sound_. Journal of Intelligent Information Systems, 59, 367–389. [DOI: 10.1007/s10844-022-00707-7](https://doi.org/10.1007/s10844-022-00707-7)
+Hamdi, S., Oussalah, M., Moussaoui, A., & Saidi, M. (2022). _Attention-based hybrid CNN-LSTM and spectral data augmentation for COVID-19 diagnosis from cough sound_. Journal of Intelligent Information Systems, 59, 367–389. [Available from](https://doi.org/10.1007/s10844-022-00707-7)
 
 Ashworth M, Charlton J, Ballard K, Latinovic R, Gulliford M. (2005). _Variations in antibiotic prescribing and consultation rates for acute respiratory infection in UK general practices 1995–2000_. Br J Gen Pract. 55(517):603–8. [Available from](https://pmc.ncbi.nlm.nih.gov/articles/PMC1463221/)
 
