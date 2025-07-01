@@ -6,6 +6,18 @@ This project investigates the use of deep learning models—specifically Convolu
 
 Our approach focused on adapting and extending these techniques for URTI detection, which, to date, has received relatively limited attention in machine learning literature.
 
+## Motivations
+
+Upper Respiratory Tract Infections (URTIs) are the leading cause of acute illness globally and account for approximately 83% of all respiratory tract infection-related hospital admissions in the UK. Despite the majority (82%) of URTIs being viral in origin—where antibiotics are ineffective—antibiotic prescribing remains widespread and often unnecessary. Notably, 41% of patients prescribed antibiotics for URTI have no clinical indication for them.
+
+Bacterial URTIs typically resolve without the need for antibiotics, and overprescribing contributes significantly to the rise of antimicrobial resistance. Moreover, there are no machine learning algorithms currently developed or implemented solely for URTI detection, representing a critical gap in digital diagnostic tools.
+
+The development of an automated URTI detection algorithm could:
+- Prevent inappropriate antibiotic prescriptions
+- Address growing antimicrobial resistance
+- Reduce unnecessary economic burden on healthcare systems
+- Alleviate operational pressure on general practitioners and the NHS
+
 ## Dataset
 
 The [COUGHVID dataset](https://zenodo.org/record/4498364) is a large-scale, crowd-sourced audio repository of coughs, collected during the COVID-19 pandemic. It contains over 34,000 audio samples, along with rich metadata (e.g., COVID status, demographic data, and expert physician labels for a subset). We filtered and processed this dataset to retain only entries with expert physician diagnosis relevant to upper respiratory tract infections.
@@ -50,6 +62,18 @@ These results indicate that the CNN model performs with clinical-grade accuracy 
 ## References
 
 Hamdi, S., Oussalah, M., Moussaoui, A., & Saidi, M. (2022). _Attention-based hybrid CNN-LSTM and spectral data augmentation for COVID-19 diagnosis from cough sound_. Journal of Intelligent Information Systems, 59, 367–389. [DOI: 10.1007/s10844-022-00707-7](https://doi.org/10.1007/s10844-022-00707-7)
+
+Ashworth M, Charlton J, Ballard K, Latinovic R, Gulliford M. (2005). _Variations in antibiotic prescribing and consultation rates for acute respiratory infection in UK general practices 1995–2000_. Br J Gen Pract. 55(517):603–8. [Available from](https://pmc.ncbi.nlm.nih.gov/articles/PMC1463221/)
+
+Jackson C, Lawes T, Smith R, et al. (2023). _Increasing burden of antimicrobial resistance in respiratory tract infections in primary care: a retrospective cohort study_. JAC Antimicrob Resist. 5(1):dlad012. [Available from](https://academic.oup.com/jacamr/article/5/1/dlad012/7034538)
+
+National Institute for Health and Clinical Excellence (NICE). (2008). _Respiratory Tract Infections - Antibiotic Prescribing: Prescribing of Antibiotics for Self-Limiting Respiratory Tract Infections in Adults and Children in Primary Care_. NICE Clinical Guidelines No. 69. [Available from](https://www.ncbi.nlm.nih.gov/books/NBK53632/)
+
+Leung TI, Abdelnabi M, Henao-Martínez AF, Beckham JD, Tyler KL, Mejia R. (2021). _Burden of respiratory infections during the COVID-19 pandemic in the United States_. EClinicalMedicine. 38:101018. [Available from](https://www.thelancet.com/journals/eclinm/article/PIIS25895370%2821%2900266-2/)
+
+Collaborators TRTI. (2024). _Global, regional, and national burden of respiratory tract infections, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019_. Lancet Infect Dis. 24(5):505–24. [Available from](https://www.thelancet.com/journals/laninf/article/PIIS1473-3099%2824%2900430-4/)
+
+Llor C, Bjerrum L. (2014). _Antimicrobial resistance: risk associated with antibiotic overuse and initiatives to reduce the problem_. Ther Adv Drug Saf. 5(6):229–41. [Available from](https://pmc.ncbi.nlm.nih.gov/articles/PMC6323860/)
 
 ## Dataset Link
 
